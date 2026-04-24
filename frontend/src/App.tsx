@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import MemberCard from "./MemberCard";
 import type { Member } from "./MemberCard";
 import "./App.css";
+import BalanceGame from "./BalanceGame";
 
 const members: Member[] = [
   {
@@ -129,14 +130,8 @@ export default function App() {
       )}
 
       {/* 밸런스게임 */}
-      {page === "balance" && (
-        <main className="content">
-          <h2 className="section-title">MBTI 궁합 체크 🔮</h2>
-          <p style={{ color: "#666" }}>
-            여긴 팀원 B가 fetch 연동, 팀원 C가 Django API를 붙일 자리예요!
-          </p>
-        </main>
-      )}
+      {page === 'balance' && 
+      (<BalanceGame />)}
 
       {/* 모달 팝업 — 카드 클릭 시 */}
       {selected && (

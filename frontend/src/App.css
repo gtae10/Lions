@@ -348,3 +348,118 @@ body {
     padding: 32px 24px;
   }
 }
+
+/* ---- 밸런스게임 ---- */
+.balance-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.balance-selects {
+  display: flex;
+  align-items: flex-end;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.balance-select-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.balance-label {
+  font-size: 13px;
+  color: #888;
+  text-align: center;
+}
+
+.balance-select {
+  padding: 10px 16px;
+  font-size: 16px;
+  border: 1.5px solid #ddd;
+  border-radius: 10px;
+  background: #fff;
+  cursor: pointer;
+  min-width: 110px;
+  text-align: center;
+}
+
+.balance-select:focus {
+  outline: none;
+  border-color: #6c63ff;
+}
+
+.balance-vs {
+  font-size: 20px;
+  font-weight: bold;
+  color: #aaa;
+  padding-bottom: 10px;
+}
+
+.balance-btn {
+  padding: 12px 32px;
+  font-size: 16px;
+  background: #6c63ff;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.balance-btn:hover:not(:disabled) {
+  background: #5a52d5;
+}
+
+.balance-btn:disabled {
+  background: #bbb;
+  cursor: not-allowed;
+}
+
+.balance-error {
+  color: #e05;
+  margin-top: 16px;
+  text-align: center;
+}
+
+.balance-result {
+  margin-top: 36px;
+  text-align: center;
+  animation: fadeIn 0.4s ease;
+}
+
+.balance-score {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 4px;
+  margin-bottom: 12px;
+}
+
+.balance-score-number {
+  font-size: 64px;
+  font-weight: bold;
+  color: #6c63ff;
+}
+
+.balance-score-label {
+  font-size: 24px;
+  color: #888;
+}
+
+.balance-comment {
+  font-size: 18px;
+  color: #444;
+  max-width: 400px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
