@@ -19,7 +19,7 @@ const members: Member[] = [
     mbti: "INTP",
     bio: "차차 배워가는 개발 입문자입니다",
     image: "https://picsum.photos/seed/lion2/300",
-    hobby: "음악 감상, 책 구경",
+    hobby: "음악 감상, 책 구경, 영화 감상",
     language: "C(공부중)",
     github: "https://github.com/sznii161",
   },
@@ -28,7 +28,7 @@ const members: Member[] = [
     mbti: "ENTP",
     bio: "다양한걸 경험해보고 싶은 개발자가 되고싶습니다.",
     image: "https://picsum.photos/seed/lion3/300",
-    hobby: "운동, 영화감상, 음악감상",
+    hobby: "운동, 영화 감상, 음악 감상",
     language: "Spring(공부중), Python",
     github: "https://github.com/gtae10",
   },
@@ -86,9 +86,9 @@ export default function App() {
             <div className="compare-card common">
               <h3 className="compare-title">🤝 우리의 공통점</h3>
               <ul className="compare-list">
-                <li>공통점 1 — 여기에 내용 작성</li>
-                <li>공통점 2 — 여기에 내용 작성</li>
-                <li>공통점 3 — 여기에 내용 작성</li>
+                <li>멋쟁이사자처럼 14기예요🦁</li>
+                <li>영화 감상을 즐겨요</li>
+                <li>MBTI가 TP(사고형, 인식형)이에요</li>
               </ul>
             </div>
 
@@ -98,29 +98,29 @@ export default function App() {
                 <thead>
                   <tr>
                     <th>항목</th>
-                    <th>김멋사</th>
-                    <th>이사자</th>
-                    <th>박처럼</th>
+                    <th>박소호</th>
+                    <th>안수진</th>
+                    <th>권태열</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
                     <td>MBTI</td>
-                    <td>INFP</td>
-                    <td>ENFJ</td>
-                    <td>ISTP</td>
-                  </tr>
-                  <tr>
-                    <td>스타일</td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
+                    <td>ESTP</td>
+                    <td>INTP</td>
+                    <td>ENTP</td>
                   </tr>
                   <tr>
                     <td>선호 언어</td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
+                    <td>Java, Python</td>
+                    <td>C</td>
+                    <td>Spring, Python</td>
+                  </tr>
+                  <tr>
+                    <td>취미</td>
+                    <td>영화, 사진</td>
+                    <td>음악, 독서</td>
+                    <td>운동, 영화, 음악</td>
                   </tr>
                 </tbody>
               </table>
