@@ -6,31 +6,31 @@ import BalanceGame from "./BalanceGame";
 
 const members: Member[] = [
   {
-    name: "김멋사",
-    mbti: "INFP",
-    bio: "조용히 코딩하는 백엔드 지망생",
+    name: "박소호",
+    mbti: "ESTP",
+    bio: "미래를 준비중인 대학생",
     image: "https://picsum.photos/seed/lion1/300",
-    hobby: "음악 감상, 독서",
-    language: "Python, Django",
-    github: "https://github.com/kimmeotsa",
+    hobby: "영화 시청, 사진 촬영",
+    language: "Java, Python",
+    github: "https://github.com/thinghon",
   },
   {
-    name: "이사자",
-    mbti: "ENFJ",
-    bio: "같이 하면 더 재밌어요!",
+    name: "안수진",
+    mbti: "INTP",
+    bio: "차차 배워가는 개발 입문자입니다",
     image: "https://picsum.photos/seed/lion2/300",
-    hobby: "러닝, 보드게임",
-    language: "JavaScript, React",
-    github: "https://github.com/leesaja",
+    hobby: "음악 감상, 책 구경",
+    language: "C(공부중)",
+    github: "https://github.com/sznii161",
   },
   {
-    name: "박처럼",
-    mbti: "ISTP",
-    bio: "일단 만들고 봅니다",
+    name: "권태열",
+    mbti: "ENTP",
+    bio: "다양한걸 경험해보고 싶은 개발자가 되고싶습니다.",
     image: "https://picsum.photos/seed/lion3/300",
-    hobby: "사진, 등산",
-    language: "TypeScript, Node.js",
-    github: "https://github.com/parkcheoreom",
+    hobby: "운동, 영화감상, 음악감상",
+    language: "Spring(공부중), Python",
+    github: "https://github.com/gtae10",
   },
 ];
 
@@ -130,8 +130,7 @@ export default function App() {
       )}
 
       {/* 밸런스게임 */}
-      {page === 'balance' && 
-      (<BalanceGame />)}
+      {page === "balance" && <BalanceGame />}
 
       {/* 모달 팝업 — 카드 클릭 시 */}
       {selected && (
