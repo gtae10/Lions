@@ -119,7 +119,7 @@ export default function App() {
                   <tr>
                     <td>취미</td>
                     <td>영화, 사진</td>
-                    <td>음악, 독서</td>
+                    <td>음악, 영화, 독서</td>
                     <td>운동, 영화, 음악</td>
                   </tr>
                 </tbody>
